@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
     declarations: [
         AppComponent,
     ],
-    bootstrap: [
+    bootstrap: [ // list of comps to use 
         AppComponent,
     ]  
 })
