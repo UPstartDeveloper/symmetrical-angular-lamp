@@ -4,4 +4,3 @@ import { AppModule } from './app/app.module';
 
 // Here we pass our module that we want to bootstrap for the browser
 platformBrowserDynamic().bootstrapModule(AppModule);
-
