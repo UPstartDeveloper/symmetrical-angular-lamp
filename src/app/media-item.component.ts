@@ -6,9 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./media-item.component.css']
 })
 export class MediaItemComponent {
-  // name = 'The Redemption';
-
   onDelete() {
-    console.log("deleted!");
+    console.log('deleted');
   }
 }
