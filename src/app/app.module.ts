@@ -4,15 +4,16 @@ import { AppComponent } from './app.component';
 import { MediaItemComponent } from './media-item.component';
 
 @NgModule({
-  imports: [
-    BrowserModule
-  ],
-  declarations: [
-    AppComponent,
-    MediaItemComponent
-  ],
-  bootstrap: [
-    AppComponent
-  ]
+    imports: [
+        BrowserModule, 
+    ],
+    declarations: [
+        AppComponent,
+    ],
+    bootstrap: [ // list of comps to use 
+        AppComponent,
+    ]  
 })
-export class AppModule {}
+export class AppModule {
+
+}
