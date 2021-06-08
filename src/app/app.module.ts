@@ -7,10 +7,11 @@ import { MediaItemComponent } from './media-item.component';
     imports: [
         BrowserModule, 
     ],
-    declarations: [
+    declarations: [  // list of comps that may appear in the template
         AppComponent,
+        MediaItemComponent,
     ],
-    bootstrap: [ // list of comps to use 
+    bootstrap: [ // list of comps to use when "bootstrapping" the app
         AppComponent,
     ]  
 })
