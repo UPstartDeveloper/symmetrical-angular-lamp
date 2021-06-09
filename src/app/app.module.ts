@@ -15,6 +15,4 @@ import { MediaItemComponent } from './media-item.component';
         AppComponent,
     ]  
 })
-export class AppModule {
-
-}
+export class AppModule {}
