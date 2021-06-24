@@ -1,5 +1,10 @@
+import { Inject, Injectable } from "@angular/core";
+
+@Injectable({
+    providedIn: 'root'
+})
 export class MediaItemService {
-    mediaItems = [
+  mediaItems = [
     {
       id: 1,
       name: 'Firebug',
@@ -45,17 +50,17 @@ export class MediaItemService {
   ];
 
   get() {
-      return this.mediaItems;
+    return this.mediaItems;
   }
 
   add(mediaItem) {
-      this.mediaItems.push(mediaItem);
+    this.mediaItems.push(mediaItem);
   }
 
   delete(mediaItem) {
-      const index = this.mediaItems.indexOf(mediaItem);
-      if (index > -1 ) {
-          this.mediaItems.splice(index, 1);
-      }
+    const index = this.mediaItems.indexOf(mediaItem);
+    if (index >= 0) {
+      this.mediaItems.splice(index, 1);
+    }
   }
 }
