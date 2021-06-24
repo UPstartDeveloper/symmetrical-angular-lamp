@@ -9,20 +9,20 @@ import { CategoryListPipe } from './category-list.pipe';
 import { MediaItemFormComponent } from './media-item-form.component';
 
 @NgModule({
-    imports: [  // building blocks for other stuff 
-        BrowserModule, 
-        ReactiveFormsModule
-    ],
-    declarations: [  // list of comps, directives, or pipes that may appear in the template
-        AppComponent,
-        MediaItemComponent,
-        MediaItemListComponent,
-        FavoriteDirective,
-        CategoryListPipe,
-        MediaItemFormComponent
-    ],
-    bootstrap: [ // list of comps to use when "bootstrapping" the app
-        AppComponent,
-    ]  
+  imports: [
+    BrowserModule,
+    ReactiveFormsModule
+  ],
+  declarations: [
+    AppComponent,
+    MediaItemComponent,
+    MediaItemListComponent,
+    FavoriteDirective,
+    CategoryListPipe,
+    MediaItemFormComponent
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule {}
