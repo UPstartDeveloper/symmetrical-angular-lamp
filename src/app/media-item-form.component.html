@@ -8,7 +8,7 @@
     <li>
       <label for="medium">Medium</label>
       <select name="medium" id="medium" formControlName="medium">
-        <option *ngFor="let medium of lookupList.mediums" [value]="medium">{{ medium }}</option>
+        <option *ngFor="let medium of lookupLists.mediums" value="{{medium}}">{{medium}}</option>
       </select>
     </li>
     <li>
@@ -18,9 +18,6 @@
         Name has invalid characters
       </div>
     </li>
-    <div *ngIf="form.get('name').hasError('pattern')" class="error">
-      Name has invalid characters
-    </div>
     <li>
       <label for="category">Category</label>
       <select name="category" id="category" formControlName="category">
