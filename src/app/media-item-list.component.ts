@@ -20,7 +20,7 @@ export class MediaItemListComponent implements OnInit {
     this.mediaItemService.delete(mediaItem);
   }
 
-  getMediaItems(medium: string) {
+  getMediaItems(medium) {
     this.medium = medium;
     this.mediaItemService.get(medium)
       .subscribe(mediaItems => {

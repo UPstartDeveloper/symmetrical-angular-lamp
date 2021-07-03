@@ -55,7 +55,7 @@ export class MediaItemService {
 
   get(medium) {
     const getOptions = {
-      params: { medium: medium }
+      params: { medium }
     };
     return this.http.get<MediaItemsResponse>('mediaitems', getOptions)
       .pipe(
