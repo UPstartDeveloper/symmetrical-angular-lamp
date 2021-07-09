@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MediaItemService, MediaItem } from './media-item.service';
-import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'mw-media-item-list',
