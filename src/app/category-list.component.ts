@@ -19,14 +19,6 @@ import { Component, Input } from '@angular/core';
       :host-context(.medium-series) span {
         background-color: #45bf94;
       }
-      .label {
-        background-color: #999999;
-        color: #ffffff;
-        border-radius: 4px;
-        padding: 2px 6px;
-        font-style: italic;
-        width: max-content;
-      }
       span {
         display: inline-block;
         margin-right: 4px;
