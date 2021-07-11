@@ -15,7 +15,7 @@ import { CategoryListComponent } from './category-list.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    routing,
+    routing
   ],
   declarations: [
     AppComponent,
